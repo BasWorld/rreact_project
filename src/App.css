@@ -4,3 +4,23 @@
   font-weight: bold;
   color: slategray;
 }
+.nav{
+  background-color: #eee;
+  padding: 10px;
+}
+
+.about{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: slategray;
+}
+ul{
+  display: flex;
+  gap: 20px;
+}
+li{
+  list-style-type: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}

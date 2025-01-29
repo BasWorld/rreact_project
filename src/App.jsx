@@ -1,15 +1,21 @@
 
-
+import { Route, Link, Routes } from 'react-router-dom'
+import About from './About'
 import './App.css'
+import Home from './Home'
+import Navigation from './Navigation'
 
 function App() {
 
 
   return (
-    <div className='app'>
-       <h1>React Application</h1>
-       <hr />
-       <p>created by <b>bascode-dev</b></p>
+    <div>
+       <Navigation />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+        </Routes>
+       
     </div>
   )
 }
